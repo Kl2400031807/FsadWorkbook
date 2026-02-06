@@ -1,2 +1,0 @@
-Git version control added
-Initialized notes file
