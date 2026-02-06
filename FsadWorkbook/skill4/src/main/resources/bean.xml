@@ -1,0 +1,15 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="student" class="com.klu.model.Student">
+        <constructor-arg value="1002"/>
+        <constructor-arg value="Alekhya"/>
+        
+        <property name="course" value="FSAD"/>
+        <property name="year" value="2"/>
+    </bean>
+
+</beans>
