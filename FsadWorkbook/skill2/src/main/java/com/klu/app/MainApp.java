@@ -17,7 +17,8 @@ public class MainApp {
         Scanner sc = new Scanner(System.in);
         int choice;
 
-        do {
+        do 
+        {
             System.out.println("...........Product Menu.............");
             System.out.println("1. Insert Product");
             System.out.println("2. Display Product");
